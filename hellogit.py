@@ -1,4 +1,5 @@
 from bye import say_bye
+from check_question import check_question
 
 
 def ask_question():
@@ -7,7 +8,8 @@ def ask_question():
 
 def main():
     question = ask_question()
-    print("hello git", question)
+    if check_question(question):
+        print("hello git", question)
     say_bye()
 
 
