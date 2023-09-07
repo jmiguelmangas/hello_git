@@ -24,6 +24,7 @@ def check_user_password(login):
 
 
 def main():
+    print("Login V2")
     login = ask_username_password()
     if check_user_password(login):
         print(f"Hello {login[0].capitalize()} welcome to the system")
