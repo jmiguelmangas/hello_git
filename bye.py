@@ -1,2 +1,2 @@
 def say_bye():
-    print("Bye Loser")
+    print("Bye User")
