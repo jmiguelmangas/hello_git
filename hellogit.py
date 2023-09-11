@@ -14,6 +14,7 @@ def main():
     say_bye()
 
     print("Es bromita")
+    print("Tell me whyyyyyy")
 
 
 if __name__ == "__main__":
