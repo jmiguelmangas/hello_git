@@ -16,4 +16,5 @@ def main():
     print("Es bromita")
 
 
-main()
+if __name__ == "__main__":
+    main()
